@@ -43,8 +43,11 @@ class MainActivity : AppCompatActivity() {
     external fun stringFromJNI(): String
 
     external fun add(x: Int, y: Int): Int
+
     external fun sub(x: Int, y: Int): Int
+
     external fun multiply(x: Int, y: Int): Int
+
     external fun divide(x: Int, y: Int): Int
 
     companion object {
